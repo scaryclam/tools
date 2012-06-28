@@ -21,6 +21,7 @@ def get_authors(filename):
 
 
 if __name__ == '__main__':
+    # Add the input file here. Command line options to follow
     input_file = ''
     authors = get_authors(input_file)
     default_line = "%(author)s = %(author_name)s <%(author_email)s>\n"
